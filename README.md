@@ -201,3 +201,7 @@ it out on the MISO pin.
 Make sure to hook a signal handler for SIGKILL to do cleanup.  From the
 handler make sure to call `ws2811_fini()`.  It'll make sure that the DMA
 is finished before program execution stops and cleans up after itself.
+
+## Tutorial
+
+Use the Raspberry Pi tutorial from https://tutorials-raspberrypi.com/connect-control-raspberry-pi-ws2812-rgb-led-strips/ for a complete walkthrough on the setup of both hardware and software
